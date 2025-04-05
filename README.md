@@ -1,15 +1,18 @@
 # CV - M Riski Saputra
 
+This is a single-page CV built using HTML and CSS, created as a practice project for beginner frontend developers.
 
-Single-page CV dibuat dengan HTML dan CSS, sebagai latihan frontend developer pemula.
+## How to Run
 
-## Cara Menjalankan
+1. Clone this repository  
+2. Open the `index.html` file in your browser  
+3. Done!
 
-1. Clone repo ini:
-2. Buka file `index.html` di browser.
-3. selesai
+## 🔗 Live Demo  
+https://rskisptra.github.io/CV-Single-Page/
 
-Demo : https://rskisptra.github.io/CV-Single-Page/
-github : https://github.com/RskiSptra/CV-Single-Page/tree/master
+## 📁 GitHub Repository  
+https://github.com/RskiSptra/CV-Single-Page
 
-Link project: https://roadmap.sh/projects/single-page-cv
+## 📌 Project Link  
+https://roadmap.sh/projects/single-page-cv
