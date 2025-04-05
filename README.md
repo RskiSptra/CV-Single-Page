@@ -8,4 +8,5 @@ Single-page CV dibuat dengan HTML dan CSS, sebagai latihan frontend developer pe
 2. Buka file `index.html` di browser.
 3. selesai
 
-https://roadmap.sh/projects/single-page-cv
+README file must contain the : https://roadmap.sh/projects/single-page-cv
+
