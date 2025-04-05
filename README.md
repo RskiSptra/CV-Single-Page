@@ -1,5 +1,6 @@
 # CV - M Riski Saputra
 
+Link project: https://roadmap.sh/projects/single-page-cv
 Single-page CV dibuat dengan HTML dan CSS, sebagai latihan frontend developer pemula.
 
 ## Cara Menjalankan
