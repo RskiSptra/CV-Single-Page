@@ -10,3 +10,5 @@ Single-page CV dibuat dengan HTML dan CSS, sebagai latihan frontend developer pe
 
 Demo : https://rskisptra.github.io/CV-Single-Page/
 
+README file must contain the : https://roadmap.sh/projects/single-page-cv
+
