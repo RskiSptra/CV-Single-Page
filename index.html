@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- SEO Meta Tags -->
     <meta
       name="description"
@@ -11,26 +13,36 @@
     <meta name="keywords" content="Single-Page CV, Web Developer" />
     <meta name="author" content="M Riski Saputra" />
 
-    <!-- Open Graph Tags -->
+    <!-- Open Graph Meta Tags for social media sharing -->
     <meta
       property="og:title"
       content="CV M Riski Saputra - Frontend Developer"
     />
     <meta
       property="og:description"
-      content="Kenali M Riski Saputra, developer muda berpengalaman dengan HTML, CSS, dan JavaScript."
+      content="Get to know M Riski Saputra, a young developer experienced with HTML, CSS, and JavaScript."
     />
 
+    <!-- Favicon that appears in the browser tab -->
+    <link rel="icon" href="resume.png" />
+
     <title>Single-Page CV</title>
+
+    <!-- Internal CSS styles -->
     <style>
+      /* Horizontal line style */
       hr {
         width: 80%;
         margin: 20px auto;
         border: 1px solid #444;
       }
+
+      /* Subheading style */
       h2 {
         color: hsl(120, 90%, 28%);
       }
+
+      /* Special text style */
       .special {
         color: rgb(5, 5, 223);
         font-size: 15px;
@@ -39,11 +51,13 @@
   </head>
 
   <body>
+    <!-- Header section with name, title, and contact information -->
     <header>
       <hr />
       <h1>M Riski Saputra</h1>
       <h2>Junior Frontend Developer</h2>
 
+      <!-- Contact information -->
       <address>
         123 Your Street <br />
         Your City, ST 12345 <br />
@@ -52,7 +66,9 @@
       </address>
     </header>
 
+    <!-- Main content area: Skills, Education, Experience -->
     <main>
+      <!-- Skills section -->
       <article id="skills">
         <h2>Skills</h2>
         <p>
@@ -61,57 +77,61 @@
           Technical Writing, Presentation
         </p>
       </article>
+
+      <!-- Education section -->
       <article id="education">
         <h2>Education</h2>
         <p>
           <span class="special"
-            >Universitas Teknologi Nusantara, Jakarta, S1 Informatika</span
+            >Universitas Teknologi Nusantara, Jakarta, BSc in Computer
+            Science</span
           ><br />
-          September 2021 to Sekarang <br />
-          Aktif dalam kegiatan organisasi kampus dan pengembangan proyek mini
-          berbasis web. Mempelajari dasar-dasar pemrograman, struktur data, dan
-          desain antarmuka pengguna.
+          September 2021 to Present <br />
+          Actively involved in student organizations and mini web projects.
+          Studied programming fundamentals, data structures, and user interface
+          design.
         </p>
       </article>
+
+      <!-- Work and project experience section -->
       <article id="experience">
         <h2>Experience</h2>
+
+        <!-- Portfolio website project -->
         <section>
           <p>
-            <span class="special">Proyek Pribadi, Portofolio Website</span>
-            <br />
-            Januari 2024 to Februari 2024
+            <span class="special">Personal Project, Portfolio Website</span
+            ><br />
+            January 2024 to February 2024
           </p>
           <ul>
-            <li>
-              Membangun website portofolio menggunakan HTML, CSS, dan
-              JavaScript.
-            </li>
-            <li>Website bersifat responsive dan SEO-friendly.</li>
-            <li>
-              Menggunakan Git untuk version control dan GitHub untuk deployment.
-            </li>
+            <li>Built a portfolio website using HTML, CSS, and JavaScript.</li>
+            <li>The website is responsive and SEO-friendly.</li>
+            <li>Used Git for version control and GitHub for deployment.</li>
           </ul>
           <p>Skills: HTML, CSS, JavaScript, Git, Responsive Design</p>
         </section>
+
+        <!-- Freelance project for a local business -->
         <section>
           <p>
-            <span class="special">Freelance, Landing Page UKM Lokal</span>
-            <br />
-            Agustus 2023 to Oktober 2023
+            <span class="special">Freelance, Local SME Landing Page</span><br />
+            August 2023 to October 2023
           </p>
           <ul>
             <li>
-              Berkomunikasi langsung dengan klien untuk kebutuhan desain dan
-              fitur.
+              Communicated directly with clients to understand design and
+              feature needs.
             </li>
-            <li>Merancang dan mengembangkan landing page promosi produk.</li>
-            <li>Optimasi kecepatan dan aksesibilitas website.</li>
+            <li>Designed and developed a promotional landing page.</li>
+            <li>Optimized website speed and accessibility.</li>
           </ul>
           <p>Skills: Tailwind CSS, Mobile-first Design, UI/UX Thinking</p>
         </section>
       </article>
     </main>
 
+    <!-- Footer with social media links -->
     <footer>
       <h2>Across the Internet</h2>
       <p>
